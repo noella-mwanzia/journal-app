@@ -10,6 +10,11 @@
       "StackName": "amplify-noella-dev-113209",
       "StackId": "arn:aws:cloudformation:us-east-1:150070262128:stack/amplify-noella-dev-113209/416d4080-31d8-11ee-8a39-0a801de15cc3",
       "AmplifyAppId": "duzv6cfjcpqv"
+    },
+    "categories": {
+      "api": {
+        "noella": {}
+      }
     }
   }
 }
