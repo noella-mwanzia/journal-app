@@ -12,6 +12,7 @@ export const createJournal = /* GraphQL */ `
       entry
       createdAt
       updatedAt
+      owner
       __typename
     }
   }
@@ -27,6 +28,7 @@ export const updateJournal = /* GraphQL */ `
       entry
       createdAt
       updatedAt
+      owner
       __typename
     }
   }
@@ -42,6 +44,7 @@ export const deleteJournal = /* GraphQL */ `
       entry
       createdAt
       updatedAt
+      owner
       __typename
     }
   }
