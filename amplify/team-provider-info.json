@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-noella-dev-113209-authRole",
+      "UnauthRoleArn": "arn:aws:iam::150070262128:role/amplify-noella-dev-113209-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::150070262128:role/amplify-noella-dev-113209-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-noella-dev-113209-deployment",
+      "UnauthRoleName": "amplify-noella-dev-113209-unauthRole",
+      "StackName": "amplify-noella-dev-113209",
+      "StackId": "arn:aws:cloudformation:us-east-1:150070262128:stack/amplify-noella-dev-113209/416d4080-31d8-11ee-8a39-0a801de15cc3",
+      "AmplifyAppId": "duzv6cfjcpqv"
+    }
+  }
+}
