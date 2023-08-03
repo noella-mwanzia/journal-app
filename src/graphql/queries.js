@@ -9,6 +9,7 @@ export const getJournal = /* GraphQL */ `
       entry
       createdAt
       updatedAt
+      owner
       __typename
     }
   }
@@ -26,6 +27,7 @@ export const listJournals = /* GraphQL */ `
         entry
         createdAt
         updatedAt
+        owner
         __typename
       }
       nextToken
