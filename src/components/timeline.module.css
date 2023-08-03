@@ -1,0 +1,25 @@
+.timeline{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.btn{
+    position: absolute;
+    bottom: 30px;
+    right: 85px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 100px;
+    border-color: #00BFA6;
+    color: #fff;
+    background-color: #00BFA6;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header{
+    color: #00BFA6;
+    text-align: center;
+    font-size: 20px;
+}
