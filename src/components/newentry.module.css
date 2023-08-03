@@ -1,0 +1,34 @@
+.form{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.fields{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textArea{
+    width:700px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid rgb(205, 194, 194);
+    border-radius: 15px;
+    margin-top: 10px;
+
+    padding: 10px;
+    border: 1px solid #00BFA6;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-color: #00BFA6;
+    color: #fff;
+    background-color: #00BFA6;
+    font-weight: bold;
+    font-size: 15px;
+}

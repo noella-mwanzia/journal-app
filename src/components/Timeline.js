@@ -35,14 +35,14 @@ const TimeLine = () => {
 
     return (
         <div className={styles.timeline}>
-        <h2 className={styles.header}>My journal entries</h2>
+        <h2 className={styles.header}>Past journal entries</h2>
         
         {/* Extract component that previews journal entries */}
         {journals.map(journal => <Preview key={journal.id} journal={journal}/>)}
 
-        <button type="button" className={styles.btn} onClick={addJournal}>
+        {/* <button type="button" className={styles.btn} onClick={addJournal}>
             New
-        </button>
+        </button> */}
         </div>
     )
 }
