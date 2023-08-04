@@ -5,7 +5,8 @@ input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONL
 type Journal
  @model
  @auth(rules: [{ allow: owner }, { allow: public, operations: [read] }])  {
-  id: ID!
+  id: ID
   date: String!
-  entry: String
+  entry: String!
+  owner: String
 }
