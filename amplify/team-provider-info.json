@@ -13,10 +13,18 @@
     },
     "categories": {
       "api": {
-        "noella": {}
+        "noella": {},
+        "AdminQueries": {}
       },
       "auth": {
-        "noella95f99ea1": {}
+        "noella95f99ea1": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "AdminQueriesd6516b1d": {
+          "deploymentBucketName": "amplify-noella-dev-113209-deployment",
+          "s3Key": "amplify-builds/AdminQueriesd6516b1d-646e5932513944466b56-build.zip"
+        }
       }
     }
   }

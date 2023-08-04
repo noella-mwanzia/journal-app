@@ -10,9 +10,9 @@ export const createJournal = /* GraphQL */ `
       id
       date
       entry
+      owner
       createdAt
       updatedAt
-      owner
       __typename
     }
   }
@@ -26,9 +26,9 @@ export const updateJournal = /* GraphQL */ `
       id
       date
       entry
+      owner
       createdAt
       updatedAt
-      owner
       __typename
     }
   }
@@ -42,9 +42,9 @@ export const deleteJournal = /* GraphQL */ `
       id
       date
       entry
+      owner
       createdAt
       updatedAt
-      owner
       __typename
     }
   }
